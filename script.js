@@ -1,22 +1,13 @@
+const profile = {
+    name : " Shiv farkale" ,
+    follow : true ,
+    request  : 10 ,
+    link : "www.google.com" 
 
-function shiv (){
-    //var a = 50 ;
-    console.log("working ");
-    
+
 }
-
-shiv() // call the shiv 
-
-    var a = 50 ;
-console.log(typeof (a));
+console.log(profile);
 
 
-
- function sid() {
-    var a =20 ;
-    var b = 10 ;
-    console.log (a +b) ;
-}
-sid() // call me sir 
 
 
