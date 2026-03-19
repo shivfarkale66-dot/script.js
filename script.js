@@ -1,17 +1,17 @@
 
-// let mode = "selver" ;
-// let color;
-// if (mode === "dark"){
-//     color = "black" ;
-// }else if (mode === "white"){
-//     color= "white";
+let mode = "selver" ;
+let color;
+if (mode === "dark"){
+    color = "black" ;
+}else if (mode === "white"){
+    color= "white";
 
-// }else if (mode === "red"){
-//     color= "red" ;
-// }else if (mode === "blue"){
-//     color= "blue" ;
-// }
-// console.log(color) ;
+}else if (mode === "red"){
+    color= "red" ;
+}else if (mode === "blue"){
+    color= "blue" ;
+}
+console.log(color) ;
 
 // console.log( "hyy shiv ")
 
