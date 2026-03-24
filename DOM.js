@@ -132,6 +132,7 @@ function outputbox() {
 
 function changecolor() {
     let color = document.getElementById("bginputbox").value ;
+    
     document.getElementById("changecolor")
     .style.backgroundColor = color ;
 }
