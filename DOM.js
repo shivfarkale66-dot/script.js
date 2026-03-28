@@ -1,37 +1,37 @@
-// function shiv(){
-//     // alert ("hellow shiv")
+function shiv(){
+    // alert ("hellow shiv")
 
-//     let Text = document.querySelector('.click')
-//     Text.innerHTML =" my name is <i>shiv</i> "
+    let Text = document.querySelector('.click')
+    Text.innerHTML =" my name is <i>shiv</i> "
 
-// }
-
-
-// function shiv() {
-//     let value = document.querySelector ('.click')
-//     value.style.display="none"
-// }
+}
 
 
+function shiv() {
+    let value = document.querySelector ('.click')
+    value.style.display="none"
+}
 
 
 
 
 
-// function hideText() {
-//     let value = document.getElementById("text")
-//     value.style.display = "none";
-// }
-
-// function showText() {
-//     document.getElementById("text").style.display = "block";
-// }
 
 
-// function hideText() {
-//     let inter = document.querySelector('.Text')
-//     .style.display = "none";
-// }
+function hideText() {
+    let value = document.getElementById("text")
+    value.style.display = "none";
+}
+
+function showText() {
+    document.getElementById("text").style.display = "block";
+}
+
+
+function hideText() {
+    let inter = document.querySelector('.Text')
+    .style.display = "none";
+}
 
 // function showText() {
 //     document.querySelector('.Text')
@@ -136,3 +136,43 @@ function changecolor() {
     document.getElementById("changecolor")
     .style.backgroundColor = color ;
 }
+
+
+// arrow method 
+
+
+let app = (a) => {
+    
+    let b = 6
+    return a*b
+
+}
+// console.log( app(5))
+
+// Eval methhod
+
+
+
+function shiv (){
+    // let username = Number (prompt("inter you number"))
+    // let name =  Number (prompt("inter your number"))
+    // alert (username + name)
+let age = prompt ( "inter your color")
+if ( age>=18){
+    alert("you can vote")
+
+}
+else{
+    alert("not vote ")
+}
+
+}
+shiv()
+ function papa(){
+
+    
+ }
+
+
+
+
