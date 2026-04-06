@@ -18,6 +18,7 @@ function shiv() {
 
 
 
+
 function hideText() {
     let value = document.getElementById("text")
     value.style.display = "none";
@@ -153,26 +154,52 @@ let app = (a) => {
 
 
 
-function shiv (){
-    // let username = Number (prompt("inter you number"))
-    // let name =  Number (prompt("inter your number"))
-    // alert (username + name)
-let age = prompt ( "inter your color")
-if ( age>=18){
-    alert("you can vote")
+// function shiv (){
+//     // let username = Number (prompt("inter you number"))
+//     // let name =  Number (prompt("inter your number"))
+//     // alert (username + name)
+// let age = prompt ( "inter your color")
+// if ( age>=18){
+//     alert("you can vote")
 
-}
-else{
-    alert("not vote ")
-}
+// }
+// else{
+//     alert("not vote ")
+// }
 
-}
-shiv()
- function papa(){
+// }
+// // shiv()
+//  function papa(){
 
     
- }
+//  }
+
+function mahek(){
+    // alert("hello shiv")
+    // console.log(("hello shiv").toUpperCase());
+
+    let strr = " apple banana orange "
+    console.log(strr.split(" "))
 
 
+    
+}
 
 
+function sid() {
+    alert(`hello i am   " shiv"  "from bhopal"  " mpnagar`) 
+}
+
+
+function papa() {
+    let name = prompt("inter your name")
+    let age = prompt("inter your age ")
+    document.getElementById("papa").innerHTML = `hello my name is <i>ja </i> and my age is  <u>${age} </u> `
+}
+
+
+function ajay() {
+    let names = [ "shiv", "ajay", "mahek", "sid", "papa"]
+    names.pop()
+    console.log(names)  
+}
