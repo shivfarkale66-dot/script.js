@@ -39,3 +39,19 @@ let arun = ()=> {
 
   
 
+
+///djhfaksdhsjdfjks
+
+
+
+let sidsir = ()=> {
+    let a =  document.querySelector('.inputname').value 
+    let b =  document.querySelector('.inputnameone').value
+     let c  =   a + b ; 
+
+   
+      document.querySelector('.printname').innerHTML =  printname
+
+
+}
+
